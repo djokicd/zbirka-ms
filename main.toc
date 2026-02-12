@@ -1,0 +1,7 @@
+\babel@toc {serbianc}{}\relax 
+\contentsline {section}{\numberline {1}Увод и основне карактеристике мерних система}{5}{section.0.1}%
+\contentsline {subsection}{\numberline {1.1}Статичке карактеристике сензора}{5}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {1.2}Динамичке карактеристике сензора}{5}{subsection.0.1.2}%
+\contentsline {section}{\numberline {2}Физички принципи мерења }{5}{section.0.2}%
+\contentsline {section}{\numberline {3}Интерфејсна електрична кола }{5}{section.0.3}%
+\contentsline {section}{\numberline {4}Различите реализације сензора}{5}{section.0.4}%

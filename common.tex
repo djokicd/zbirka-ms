@@ -139,6 +139,7 @@
 
 \counterwithin{equation}{ID}
 \counterwithin{figure}{ID}
+\counterwithin{table}{ID}
 
 %% SLIKA PORED TEKSTA
 
@@ -232,26 +233,3 @@
 \SOUL@}
 \makeatother
 
-
-%% METODICKI PREGLED
-\usepackage{supertabular,booktabs}
-
-\newcolumntype{b}{X}
-\newcolumntype{s}{>{\hsize=.25\hsize}X}
-
-\newcommand{\metodickiPregled}{
-    %\input{pregled.tex}
-}
-
-%\usepackage{refcount}
-\newcommand{\refz}[1]{%
-    \ref{z:#1}%
-    \immediate\write\pregledFile{\getrefnumber{z:#1}}%
-}
-
-% Referenca bez upisa u metodicki fajl
-\newcommand{\refzz}[1]{%
-    \ref{z:#1}%
-}
-
-\newcommand{\metod}[1]{\immediate\write\pregledFile{\unexpanded{#1}}}

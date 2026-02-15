@@ -1,0 +1,21 @@
+\PID
+За поставку из задатка \ref{z:mnk_1}, одредити оптималне вредности параметара $k$ и $m$, под истим условом, ако је веза између задатих 
+физичких величина у општем линеарном облику $y = kx + m$.
+
+\RESENJE
+
+Решење се одређује на исти начин, са тиме што је сада сума квадрата грешака зависна од два параметра 
+$\upepsilon = \upepsilon(k, m)$, па је та зависност представља \textit{параболоид} чија се минимална 
+вредност налази решавањем система једначина који се добијају на основу 
+$\dfrac{\partial \upepsilon}{\partial k} = 0$ и
+$\dfrac{\partial \upepsilon}{\partial m} = 0$. Коначни резултат који се добија је у облику 
+\begin{equation}\displaystyle
+     k = \dfrac{\displaystyle n \sum_{i=1}^n (x_iy_i) - \sum_{i=1}^n x_i \cdot \sum_{i=1}^n y_i }
+     { \displaystyle
+        n \sum_{i=1}^n x_i^2 - \left(\sum_{i=1}^n x_i\right)^2
+     }
+\end{equation}
+
+\begin{equation}
+     m = \overline{y_i} - k \overline{x_i}
+\end{equation}

@@ -1,0 +1,47 @@
+\begin{slikaDesno}{fig/rect.pdf}
+\PID \label{z:proizvod}
+Измерене су странице правоугаоника $a$ и $b$, а апсолутне грешке тих мерења су 
+$\Delta a$ и $\Delta b$. Одредити израз за апсолутну и релативну грешку површине 
+тог правоугаоника $\Delta S$ и $\updelta S$.
+\end{slikaDesno}
+
+\RESENJE
+
+Површина правоугаоника је $S = ab$, па се апсолутна грешка може одредити на 
+основу резултата који је дат изразом \eqref{eq:def_aps_greska}, према 
+\begin{equation}
+    \Delta S = 
+    \left| \dfrac{\partial S}{\partial a} \right| \Delta a + 
+    \left| \dfrac{\partial S}{\partial b} \right| \Delta b + 
+    a \Delta b + b \Delta a.
+\end{equation} 
+
+Релативна грешка одређује се као удео апсолутне грешке у односу на дату величину, односно 
+$\updelta S = \dfrac{\Delta S}{S}$, заменом резултата за релативну грешку се има 
+\begin{equation}
+    \updelta S = \dfrac{a \Delta b + b \Delta a}{ab} 
+    = \dfrac{\Delta a}{a} + \dfrac{\Delta b}{b}.
+\end{equation}
+Односно, може се приметити да је ретивна грешка производа једанка \textit{збиру} релативних грешака 
+појединачних чинилаца, $\updelta(ab) = \updelta a + \updelta b$. Овај резутлат није случајност, и може се 
+показати у општем случају за производ $N$ величина, $P = x_1 x_2 \cdots x_n$, логаритмовањем обе стране једнакости 
+па потраживањем тоталног диференцијала\footnote{Користи се и извод логаритма, $(\ln x)' = 1/x$.}:
+\begin{eqnarray}
+    &&
+    P = x_1 x_2 \ldots x_n \Rightarrow
+    \ln P = \ln(x_1 x_2 \cdots x_n) = \ln x_1 + \ln x_2 + \cdots \ln x_n \qquad | \rm d
+    \\
+    && 
+    \dfrac{\de P}{P} = \dfrac{\de x_1}{x_1} + \dfrac{\de x_2}{x_2} + \cdots + \dfrac{\de x_N}{x_N}
+\end{eqnarray} 
+Поново, сматрајући најгори случај када су диференцијали једнаки појединачним апсолутним грешкама може се 
+писати 
+$\dfrac{\Delta P}{P} = \dfrac{\Delta x_1}{x_1} + \dfrac{\Delta x_2}{x_2} + \cdots + \dfrac{\Delta x_n}{x_n}$, 
+па се закључује да важи 
+\begin{equation}
+    \updelta(x_1 x_2 \cdots x_n) 
+    = \updelta x_1 + 
+    \updelta x_2 + 
+    \cdots 
+    \updelta x_n
+\end{equation}

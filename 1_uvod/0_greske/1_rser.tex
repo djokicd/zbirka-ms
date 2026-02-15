@@ -1,0 +1,44 @@
+\begin{slikaDesno}{fig/R_ser.pdf}
+\PID \label{rser}
+Два отпорника чије су измерене отпорности са одговарајућим \textit{апсолутним} грешкама 
+$R_1 = (670 \pm 30)\unit{\Omega}$ и 
+$R_2 = (820 \pm 40)\unit{\Omega}$, повезани су редно као на слици. 
+Одредити еквивалентну отпорност те редне везе $R_{\rm e}$, као и \textit{апсолутну} 
+грешку ове отпорности $\Delta R_{\rm e}$ 
+\end{slikaDesno}
+
+Отпорност редне везе је 
+\begin{equation}
+    R_{\rm e} = R_1 + R_2 = 1490\unit{\Omega}. \label{eq:\ID:1}
+\end{equation}
+
+Израз за апсолутну грешку мотивисан је тоталним диференцијалном фукције више променљивих, односно, 
+уколико је за $y = y(x_1, x_2, \ldots, x_N)$, онда је тотални диференцијал дат у облику 
+$
+\de y = \dfrac{\partial y}{\partial x_1} \, \de x_1 + \cdots + \dfrac{\partial y}{\partial x_N} \, \de x_N.
+$
+Приликом процене \textit{апсолутне грешке} рачуна се најгори случај, однсоно да се сви доприноси сабирају, чиме 
+се узима апсолутна вредност сваког од чланова. Додатно, сматра се да су грешке довољно мале, да се 
+израз за тотални диференцијал може искористити за процену грешке мерења, односно да се заменом 
+$\de x_i \mapsto \Delta x_i$ добија процена апсолутне грешке целокупног израза $\de y \mapsto \Delta y$ као 
+\begin{equation}
+    \Delta y = \left| \dfrac{\partial y}{\partial x_1} \right| \Delta x_1 +
+    \cdots + \left| \dfrac{\partial y}{\partial x_N} \right| \Delta x_N 
+    = \sum_{i = 1}^N \left(\left| \dfrac{\partial y}{\partial x_i} \right| \Delta x_i  \right)
+    \label{eq:def_aps_greska}
+\end{equation}
+Применом овог резултата на израз \eqref{eq:\ID:1} се онда добија 
+\begin{equation}
+    \Delta R_{\rm e} 
+    = 
+    \cancelto{1}{\left| \dfrac{\partial R_{\rm e}}{\partial R_1}  \right|}
+    \Delta R_1
+    +
+    \cancelto{1}{\left| \dfrac{\partial R_{\rm e}}{\partial R_2}  \right|}
+    \Delta R_2 
+    = \Delta R_1 + \Delta R_2 = 70\unit{\Omega}
+\end{equation}
+Коначно, резултат за отпорност редне везе се може записати у облику\footnote{По правилу, ако није другачије 
+наглашено, грешка се мајорира на једну значајну цифру, а резултат се заокругљује на истом броју 
+сигурних цифара.} 
+$R_{\rm e} = (1490 \pm 70)\unit{\Omega}$. 

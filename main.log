@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.25)  16 FEB 2026 01:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.25)  16 FEB 2026 20:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1421,17 +1421,15 @@ File: t1cmsrbr.fd
 \pregledFile=\write7
 \openout7 = `pregled.tex'.
 
- [4] (./content.tex (./1_uvod/0_greske/1_rser.tex
-<./1_uvod/0_greske/fig/R_ser.pdf, id=111, 67.75313pt x 63.98907pt>
-File: ./1_uvod/0_greske/fig/R_ser.pdf Graphic file (type pdf)
-<use ./1_uvod/0_greske/fig/R_ser.pdf>
-Package pdftex.def Info: ./1_uvod/0_greske/fig/R_ser.pdf  used on input line 2.
-
+ [4] (./content.tex (./1_uvod/0_orm/1_rser.tex
+<./1_uvod/0_orm/fig/R_ser.pdf, id=111, 67.75313pt x 63.98907pt>
+File: ./1_uvod/0_orm/fig/R_ser.pdf Graphic file (type pdf)
+<use ./1_uvod/0_orm/fig/R_ser.pdf>
+Package pdftex.def Info: ./1_uvod/0_orm/fig/R_ser.pdf  used on input line 2.
 (pdftex.def)             Requested size: 67.75294pt x 63.9889pt.
-File: ./1_uvod/0_greske/fig/R_ser.pdf Graphic file (type pdf)
-<use ./1_uvod/0_greske/fig/R_ser.pdf>
-Package pdftex.def Info: ./1_uvod/0_greske/fig/R_ser.pdf  used on input line 8.
-
+File: ./1_uvod/0_orm/fig/R_ser.pdf Graphic file (type pdf)
+<use ./1_uvod/0_orm/fig/R_ser.pdf>
+Package pdftex.def Info: ./1_uvod/0_orm/fig/R_ser.pdf  used on input line 8.
 (pdftex.def)             Requested size: 67.75294pt x 63.9889pt.
 
 
@@ -1443,15 +1441,15 @@ LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 43.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 (Font)              scaled to size 5.39996pt on input line 43.
-) (./1_uvod/0_greske/1.5_proizvod.tex
-<./1_uvod/0_greske/fig/rect.pdf, id=114, 158.80136pt x 74.53108pt>
-File: ./1_uvod/0_greske/fig/rect.pdf Graphic file (type pdf)
-<use ./1_uvod/0_greske/fig/rect.pdf>
-Package pdftex.def Info: ./1_uvod/0_greske/fig/rect.pdf  used on input line 2.
+) (./1_uvod/0_orm/1.5_proizvod.tex
+<./1_uvod/0_orm/fig/rect.pdf, id=114, 158.80136pt x 74.53108pt>
+File: ./1_uvod/0_orm/fig/rect.pdf Graphic file (type pdf)
+<use ./1_uvod/0_orm/fig/rect.pdf>
+Package pdftex.def Info: ./1_uvod/0_orm/fig/rect.pdf  used on input line 2.
 (pdftex.def)             Requested size: 158.80096pt x 74.53088pt.
-File: ./1_uvod/0_greske/fig/rect.pdf Graphic file (type pdf)
-<use ./1_uvod/0_greske/fig/rect.pdf>
-Package pdftex.def Info: ./1_uvod/0_greske/fig/rect.pdf  used on input line 6.
+File: ./1_uvod/0_orm/fig/rect.pdf Graphic file (type pdf)
+<use ./1_uvod/0_orm/fig/rect.pdf>
+Package pdftex.def Info: ./1_uvod/0_orm/fig/rect.pdf  used on input line 6.
 (pdftex.def)             Requested size: 158.80096pt x 74.53088pt.
 
 
@@ -1459,17 +1457,17 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 6.
 See the caption package documentation for explanation.
 
-[5 <./1_uvod/0_greske/fig/R_ser.pdf>]) (./1_uvod/0_greske/2_aps_rel.tex
-[6 <./1_uvod/0_greske/fig/rect.pdf>]) (./1_uvod/0_greske/3_srvr.tex [7])
-(./1_uvod/0_greske/4_greske.tex
-<./1_uvod/0_greske/fig/R.pdf, id=193, 56.53113pt x 63.9081pt>
-File: ./1_uvod/0_greske/fig/R.pdf Graphic file (type pdf)
-<use ./1_uvod/0_greske/fig/R.pdf>
-Package pdftex.def Info: ./1_uvod/0_greske/fig/R.pdf  used on input line 2.
+[5 <./1_uvod/0_orm/fig/R_ser.pdf>]) (./1_uvod/0_orm/2_aps_rel.tex [6 <./1_uvod/
+0_orm/fig/rect.pdf>]) (./1_uvod/0_orm/3_srvr.tex [7])
+(./1_uvod/0_orm/4_greske.tex
+<./1_uvod/0_orm/fig/R.pdf, id=193, 56.53113pt x 63.9081pt>
+File: ./1_uvod/0_orm/fig/R.pdf Graphic file (type pdf)
+<use ./1_uvod/0_orm/fig/R.pdf>
+Package pdftex.def Info: ./1_uvod/0_orm/fig/R.pdf  used on input line 2.
 (pdftex.def)             Requested size: 56.53098pt x 63.90793pt.
-File: ./1_uvod/0_greske/fig/R.pdf Graphic file (type pdf)
-<use ./1_uvod/0_greske/fig/R.pdf>
-Package pdftex.def Info: ./1_uvod/0_greske/fig/R.pdf  used on input line 18.
+File: ./1_uvod/0_orm/fig/R.pdf Graphic file (type pdf)
+<use ./1_uvod/0_orm/fig/R.pdf>
+Package pdftex.def Info: ./1_uvod/0_orm/fig/R.pdf  used on input line 18.
 (pdftex.def)             Requested size: 56.53098pt x 63.90793pt.
 
 
@@ -1477,8 +1475,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 18.
 See the caption package documentation for explanation.
 
-) (./1_uvod/0_greske/5_mnk.tex [8 <./1_uvod/0_greske/fig/R.pdf>])
-(./1_uvod/0_greske/6_mnk_2.tex)
+) (./1_uvod/0_orm/5_mnk.tex [8 <./1_uvod/0_orm/fig/R.pdf>])
+(./1_uvod/0_orm/6_mnk_2.tex)
 Overfull \hbox (2.33pt too wide) in paragraph at lines 8--65
 [] []
  []
@@ -1528,37 +1526,187 @@ Overfull \hbox (7.72893pt too wide) in paragraph at lines 28--29
 [][] 
  []
 
-) (./1_uvod/1_stat/3_njutn.tex) (./1_uvod/2_din/1_prvi_red.tex [11 <./1_uvod/1_
-stat/fig/RH_plot.pdf>]) (./1_uvod/2_din/2_2nd_order..tex)
-(./2_principi/1_rlc/1_kapacitivni_nivo.tex) (./2_principi/1_rlc/2_induktiv.tex)
-(./2_principi/2_ef/1_hol.tex) (./2_principi/2_ef/2_zebek.tex)
-(./2_principi/2_ef/3_dopler.tex) (./2_principi/2_ef/4_bimetal.tex) [12]
+) (./1_uvod/1_stat/2.5_interp_2d.tex) (./1_uvod/1_stat/3_ntc.tex
+Overfull \hbox (13.15828pt too wide) in paragraph at lines 99--8
+[]$\T2A/cmsrbr/m/n/10 , при че-му су $\OML/cmmsrbm/m/it/10 R[] \OT1/cmrsrbm/m/n
+/10 = 10 []$ \T2A/cmsrbr/m/n/10 от-пор-ност при тем-пе-ра-ту-ри $[]$,
+ []
+
+[11 <./1_uvod/1_stat/fig/RH_plot.pdf>]
+<./1_uvod/1_stat/fig/nr.pdf, id=307, 109.03703pt x 99.85123pt>
+File: ./1_uvod/1_stat/fig/nr.pdf Graphic file (type pdf)
+<use ./1_uvod/1_stat/fig/nr.pdf>
+Package pdftex.def Info: ./1_uvod/1_stat/fig/nr.pdf  used on input line 17.
+(pdftex.def)             Requested size: 109.03674pt x 99.85097pt.
+File: ./1_uvod/1_stat/fig/nr.pdf Graphic file (type pdf)
+<use ./1_uvod/1_stat/fig/nr.pdf>
+Package pdftex.def Info: ./1_uvod/1_stat/fig/nr.pdf  used on input line 23.
+(pdftex.def)             Requested size: 109.03674pt x 99.85097pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 23.
+See the caption package documentation for explanation.
+
+[12 <./1_uvod/1_stat/fig/nr.pdf>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 57.
+See the caption package documentation for explanation.
+
+<./1_uvod/1_stat/fig/nr_iter.pdf, id=326, 196.81538pt x 133.50188pt>
+File: ./1_uvod/1_stat/fig/nr_iter.pdf Graphic file (type pdf)
+<use ./1_uvod/1_stat/fig/nr_iter.pdf>
+Package pdftex.def Info: ./1_uvod/1_stat/fig/nr_iter.pdf  used on input line 62
+.
+(pdftex.def)             Requested size: 196.8149pt x 133.50154pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 63.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (10.06616pt too wide) in paragraph at lines 62--63
+[][] 
+ []
+
+) (./1_uvod/1_stat/4_ph.tex) (./1_uvod/2_din/1_prvi_red.tex [13 <./1_uvod/1_sta
+t/fig/nr_iter.pdf>]) (./1_uvod/2_din/2_2nd_order..tex) (./1_uvod/2_din/3_ct.tex
+<./1_uvod/2_din/fig/ct.pdf, id=355, 150.5625pt x 56.46094pt>
+File: ./1_uvod/2_din/fig/ct.pdf Graphic file (type pdf)
+<use ./1_uvod/2_din/fig/ct.pdf>
+Package pdftex.def Info: ./1_uvod/2_din/fig/ct.pdf  used on input line 2.
+(pdftex.def)             Requested size: 150.56212pt x 56.46078pt.
+File: ./1_uvod/2_din/fig/ct.pdf Graphic file (type pdf)
+<use ./1_uvod/2_din/fig/ct.pdf>
+Package pdftex.def Info: ./1_uvod/2_din/fig/ct.pdf  used on input line 8.
+(pdftex.def)             Requested size: 150.56212pt x 56.46078pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 8.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (5.03653pt too wide) in paragraph at lines 13--15
+[]\T2A/cmsrbr/m/n/10 Израчунати ка-па-ци-тив-ност $\OML/cmmsrbm/m/it/10 C$ \T2A
+/cmsrbr/m/n/10 та-ко да ре-зо-нант-на уче-ста-ност сен-зо-ра бу-де $[]$.
+ []
+
+[14 <./1_uvod/2_din/fig/ct.pdf>]
+<./1_uvod/2_din/fig/H_jw.pdf, id=417, 200.72818pt x 133.50188pt>
+File: ./1_uvod/2_din/fig/H_jw.pdf Graphic file (type pdf)
+<use ./1_uvod/2_din/fig/H_jw.pdf>
+Package pdftex.def Info: ./1_uvod/2_din/fig/H_jw.pdf  used on input line 54.
+(pdftex.def)             Requested size: 200.72768pt x 133.50154pt.
+<./1_uvod/2_din/fig/H_step.pdf, id=418, 208.54764pt x 133.50188pt>
+File: ./1_uvod/2_din/fig/H_step.pdf Graphic file (type pdf)
+<use ./1_uvod/2_din/fig/H_step.pdf>
+Package pdftex.def Info: ./1_uvod/2_din/fig/H_step.pdf  used on input line 61.
+(pdftex.def)             Requested size: 208.54712pt x 133.50154pt.
+
+Overfull \hbox (5.19484pt too wide) in paragraph at lines 61--62
+ [][] 
+ []
+
+) [15 <./1_uvod/2_din/fig/H_jw.pdf> <./1_uvod/2_din/fig/H_step.pdf>]
+(./2_principi/1_rlc/1_kapacitivni_nivo.tex
+<./2_principi/1_rlc/fig/cap_coax.pdf, id=466, 133.92393pt x 191.55286pt>
+File: ./2_principi/1_rlc/fig/cap_coax.pdf Graphic file (type pdf)
+<use ./2_principi/1_rlc/fig/cap_coax.pdf>
+Package pdftex.def Info: ./2_principi/1_rlc/fig/cap_coax.pdf  used on input lin
+e 2.
+(pdftex.def)             Requested size: 133.9236pt x 191.55238pt.
+File: ./2_principi/1_rlc/fig/cap_coax.pdf Graphic file (type pdf)
+<use ./2_principi/1_rlc/fig/cap_coax.pdf>
+Package pdftex.def Info: ./2_principi/1_rlc/fig/cap_coax.pdf  used on input lin
+e 19.
+(pdftex.def)             Requested size: 133.9236pt x 191.55238pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 19.
+See the caption package documentation for explanation.
+
+[16 <./2_principi/1_rlc/fig/cap_coax.pdf>]
+<./2_principi/1_rlc/fig/varC_sensor.pdf, id=488, 193.2698pt x 133.50188pt>
+File: ./2_principi/1_rlc/fig/varC_sensor.pdf Graphic file (type pdf)
+<use ./2_principi/1_rlc/fig/varC_sensor.pdf>
+Package pdftex.def Info: ./2_principi/1_rlc/fig/varC_sensor.pdf  used on input 
+line 54.
+(pdftex.def)             Requested size: 193.26932pt x 133.50154pt.
+) [17 <./2_principi/1_rlc/fig/varC_sensor.pdf>] (./2_principi/1_rlc/2_induktiv.
+tex
+<./2_principi/1_rlc/fig/L_proxy.pdf, id=512, 169.38281pt x 135.50627pt>
+File: ./2_principi/1_rlc/fig/L_proxy.pdf Graphic file (type pdf)
+<use ./2_principi/1_rlc/fig/L_proxy.pdf>
+Package pdftex.def Info: ./2_principi/1_rlc/fig/L_proxy.pdf  used on input line
+ 2.
+(pdftex.def)             Requested size: 169.38239pt x 135.50592pt.
+File: ./2_principi/1_rlc/fig/L_proxy.pdf Graphic file (type pdf)
+<use ./2_principi/1_rlc/fig/L_proxy.pdf>
+Package pdftex.def Info: ./2_principi/1_rlc/fig/L_proxy.pdf  used on input line
+ 9.
+(pdftex.def)             Requested size: 169.38239pt x 135.50592pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 9.
+See the caption package documentation for explanation.
+
+[18 <./2_principi/1_rlc/fig/L_proxy.pdf>]
+<./2_principi/1_rlc/fig/L_rez.pdf, id=534, 195.49205pt x 133.50188pt>
+File: ./2_principi/1_rlc/fig/L_rez.pdf Graphic file (type pdf)
+<use ./2_principi/1_rlc/fig/L_rez.pdf>
+Package pdftex.def Info: ./2_principi/1_rlc/fig/L_rez.pdf  used on input line 4
+7.
+(pdftex.def)             Requested size: 195.49156pt x 133.50154pt.
+) (./2_principi/1_rlc/3_otpor.tex
+<./2_principi/1_rlc/fig/R_stick.pdf, id=536, 139.27031pt x 116.68596pt>
+File: ./2_principi/1_rlc/fig/R_stick.pdf Graphic file (type pdf)
+<use ./2_principi/1_rlc/fig/R_stick.pdf>
+Package pdftex.def Info: ./2_principi/1_rlc/fig/R_stick.pdf  used on input line
+ 2.
+(pdftex.def)             Requested size: 139.26996pt x 116.68565pt.
+File: ./2_principi/1_rlc/fig/R_stick.pdf Graphic file (type pdf)
+<use ./2_principi/1_rlc/fig/R_stick.pdf>
+Package pdftex.def Info: ./2_principi/1_rlc/fig/R_stick.pdf  used on input line
+ 9.
+(pdftex.def)             Requested size: 139.26996pt x 116.68565pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 9.
+See the caption package documentation for explanation.
+
+[19 <./2_principi/1_rlc/fig/L_rez.pdf> <./2_principi/1_rlc/fig/R_stick.pdf>])
+[20] (./2_principi/2_ef/1_hol.tex) (./2_principi/2_ef/2_zebek.tex)
+(./2_principi/2_ef/3_dopler.tex) (./2_principi/2_ef/4_bimetal.tex)
 (./2_principi/2_ef/5_prenos.tex) (./2_principi/2_ef/5.5_piezo.tex)
 (./2_principi/2_ef/6_ir_zracenje.tex) (./2_principi/2_ef/7_faradej.tex)
 (./3_if_kola/1_op/1_op_frek.tex) (./3_if_kola/1_op/2_c_to_v.tex)
 (./3_if_kola/1_op/3_forced_bridge.tex)
 (./3_if_kola/1_op/4_strujni_izvor_nps_digi.tex)
 (./3_if_kola/1_op/5_strujni_izvor_LM317.tex) (./3_if_kola/2_ad_da/1_dither.tex)
-(./3_if_kola/2_ad_da/2_oversample.tex) (./4_senzori/2_din_meh/1_acc.tex)
-[13] (./4_senzori/3_pritisak/0_hg.tex) (./4_senzori/3_pritisak/1_lc.tex)
+[21] (./3_if_kola/2_ad_da/2_oversample.tex) (./4_senzori/2_din_meh/1_acc.tex)
+(./4_senzori/3_pritisak/0_hg.tex) (./4_senzori/3_pritisak/1_lc.tex)
 (./4_senzori/3_pritisak/2_kapac.tex) (./4_senzori/4_protok/0_hot_wire.tex)
 (./4_senzori/4_protok/1_pitot.tex) (./4_senzori/4_protok/2_venturi.tex)
-(./4_senzori/4_protok/3_constrict.tex)) [14] (./main.aux)
+(./4_senzori/4_protok/3_constrict.tex)) [22] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 35A6CAA8FBADC3C6A693CF3D6EA246B6;4376.
+(rerunfilecheck)             Checksum: DC0A2B611E9E623637B1AD5DD39AF289;4296.
  ) 
 Here is how much of TeX's memory you used:
- 30102 strings out of 474222
- 548698 string characters out of 5748733
+ 30300 strings out of 474222
+ 553590 string characters out of 5748733
  1950975 words of memory out of 5000000
- 51574 multiletter control sequences out of 15000+600000
- 605609 words of font info for 110 fonts, out of 8000000 for 9000
+ 51706 multiletter control sequences out of 15000+600000
+ 609988 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,14n,90p,438b,789s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,15n,90p,438b,789s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
@@ -1579,13 +1727,15 @@ ublic/cmsrb/cmsrbrr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cmsrb
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on main.pdf (14 pages, 588816 bytes).
+xlive/texmf-dist/fonts/type1/public/cmupint/cmupint.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/symbol/usyr.pfb>
+Output written on main.pdf (22 pages, 762112 bytes).
 PDF statistics:
- 478 PDF objects out of 1000 (max. 8388607)
- 381 compressed objects within 4 object streams
- 103 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 747 PDF objects out of 1000 (max. 8388607)
+ 602 compressed objects within 7 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

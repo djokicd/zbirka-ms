@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.25)  15 FEB 2026 23:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.25)  16 FEB 2026 01:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1125,7 +1125,27 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/layout.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen317
+))) (/usr/share/texlive/texmf-dist/tex/latex/tools/layout.sty
 Package: layout 2023-08-20 v1.2e Show layout parameters
 \oneinch=\count345
 \cnt@paperwidth=\count346
@@ -1221,28 +1241,24 @@ Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
 \SOUL@cmds=\toks52
 \SOUL@buffer=\toks53
 \SOUL@token=\toks54
-\SOUL@syllgoal=\dimen317
-\SOUL@syllwidth=\dimen318
-\SOUL@charkern=\dimen319
-\SOUL@hyphkern=\dimen320
-\SOUL@dimen=\dimen321
-\SOUL@dimeni=\dimen322
+\SOUL@syllgoal=\dimen318
+\SOUL@syllwidth=\dimen319
+\SOUL@charkern=\dimen320
+\SOUL@hyphkern=\dimen321
+\SOUL@dimen=\dimen322
+\SOUL@dimeni=\dimen323
 \SOUL@minus=\count378
 \SOUL@comma=\count379
 \SOUL@apo=\count380
 \SOUL@grave=\count381
 \SOUL@spaceskip=\skip109
-\SOUL@ttwidth=\dimen323
-\SOUL@uldp=\dimen324
-\SOUL@ulht=\dimen325
+\SOUL@ttwidth=\dimen324
+\SOUL@uldp=\dimen325
+\SOUL@ulht=\dimen326
 )
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-))) (./main.aux
-
-LaTeX Warning: Label `tab:8' multiply defined.
-
-)
+))) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1281,13 +1297,13 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count382
-\scratchdimen=\dimen326
+\scratchdimen=\dimen327
 \scratchbox=\box123
 \nofMPsegments=\count383
 \nofMParguments=\count384
 \everyMPshowfont=\toks55
 \MPscratchCnt=\count385
-\MPscratchDim=\dimen327
+\MPscratchDim=\dimen328
 \MPnumerator=\count386
 \makeMPintoPDFobject=\count387
 \everyMPtoPDFconversion=\toks56
@@ -1462,7 +1478,12 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 ) (./1_uvod/0_greske/5_mnk.tex [8 <./1_uvod/0_greske/fig/R.pdf>])
-(./1_uvod/0_greske/6_mnk_2.tex) (./1_uvod/1_stat/1_mnk.tex
+(./1_uvod/0_greske/6_mnk_2.tex)
+Overfull \hbox (2.33pt too wide) in paragraph at lines 8--65
+[] []
+ []
+
+(./1_uvod/1_stat/1_mag_kontura.tex
 <./1_uvod/1_stat/fig/kalibracija_B.pdf, id=225, 139.87231pt x 78.33519pt>
 File: ./1_uvod/1_stat/fig/kalibracija_B.pdf Graphic file (type pdf)
 <use ./1_uvod/1_stat/fig/kalibracija_B.pdf>
@@ -1482,44 +1503,62 @@ See the caption package documentation for explanation.
 
 [9] [10 <./1_uvod/1_stat/fig/kalibracija_B.pdf>]) (./1_uvod/1_stat/2_interp.tex
 
-LaTeX Warning: Command \CYRA invalid in math mode on input line 8.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 20.
+See the caption package documentation for explanation.
 
-Missing character: There is no À in font cmr10!
-) (./1_uvod/1_stat/3_njutn.tex) (./1_uvod/2_din/1_prvi_red.tex)
-(./1_uvod/2_din/2_2nd_order..tex) [11]
+
+Overfull \hbox (9.80144pt too wide) in paragraph at lines 14--20
+ [][] 
+ []
+
+<./1_uvod/1_stat/fig/RH_plot.pdf, id=271, 194.47815pt x 131.89587pt>
+File: ./1_uvod/1_stat/fig/RH_plot.pdf Graphic file (type pdf)
+<use ./1_uvod/1_stat/fig/RH_plot.pdf>
+Package pdftex.def Info: ./1_uvod/1_stat/fig/RH_plot.pdf  used on input line 28
+.
+(pdftex.def)             Requested size: 194.47766pt x 131.89554pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 29.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (7.72893pt too wide) in paragraph at lines 28--29
+[][] 
+ []
+
+) (./1_uvod/1_stat/3_njutn.tex) (./1_uvod/2_din/1_prvi_red.tex [11 <./1_uvod/1_
+stat/fig/RH_plot.pdf>]) (./1_uvod/2_din/2_2nd_order..tex)
 (./2_principi/1_rlc/1_kapacitivni_nivo.tex) (./2_principi/1_rlc/2_induktiv.tex)
 (./2_principi/2_ef/1_hol.tex) (./2_principi/2_ef/2_zebek.tex)
-(./2_principi/2_ef/3_dopler.tex) (./2_principi/2_ef/4_bimetal.tex)
+(./2_principi/2_ef/3_dopler.tex) (./2_principi/2_ef/4_bimetal.tex) [12]
 (./2_principi/2_ef/5_prenos.tex) (./2_principi/2_ef/5.5_piezo.tex)
 (./2_principi/2_ef/6_ir_zracenje.tex) (./2_principi/2_ef/7_faradej.tex)
-(./3_if_kola/1_op/1_op_frek.tex) [12] (./3_if_kola/1_op/2_c_to_v.tex)
+(./3_if_kola/1_op/1_op_frek.tex) (./3_if_kola/1_op/2_c_to_v.tex)
 (./3_if_kola/1_op/3_forced_bridge.tex)
 (./3_if_kola/1_op/4_strujni_izvor_nps_digi.tex)
 (./3_if_kola/1_op/5_strujni_izvor_LM317.tex) (./3_if_kola/2_ad_da/1_dither.tex)
 (./3_if_kola/2_ad_da/2_oversample.tex) (./4_senzori/2_din_meh/1_acc.tex)
-(./4_senzori/3_pritisak/0_hg.tex) (./4_senzori/3_pritisak/1_lc.tex)
+[13] (./4_senzori/3_pritisak/0_hg.tex) (./4_senzori/3_pritisak/1_lc.tex)
 (./4_senzori/3_pritisak/2_kapac.tex) (./4_senzori/4_protok/0_hot_wire.tex)
-[13] (./4_senzori/4_protok/1_pitot.tex) (./4_senzori/4_protok/2_venturi.tex)
+(./4_senzori/4_protok/1_pitot.tex) (./4_senzori/4_protok/2_venturi.tex)
 (./4_senzori/4_protok/3_constrict.tex)) [14] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 35A6CAA8FBADC3C6A693CF3D6EA246B6;4376.
  ) 
 Here is how much of TeX's memory you used:
- 28851 strings out of 474222
- 519918 string characters out of 5748733
- 1940975 words of memory out of 5000000
- 50343 multiletter control sequences out of 15000+600000
+ 30102 strings out of 474222
+ 548698 string characters out of 5748733
+ 1950975 words of memory out of 5000000
+ 51574 multiletter control sequences out of 15000+600000
  605609 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,14n,90p,438b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,14n,90p,438b,789s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
@@ -1543,10 +1582,10 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on main.pdf (14 pages, 417566 bytes).
+Output written on main.pdf (14 pages, 588816 bytes).
 PDF statistics:
- 452 PDF objects out of 1000 (max. 8388607)
- 357 compressed objects within 4 object streams
- 102 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 478 PDF objects out of 1000 (max. 8388607)
+ 381 compressed objects within 4 object streams
+ 103 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 

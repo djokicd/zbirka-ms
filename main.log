@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.25)  16 FEB 2026 20:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.25)  17 FEB 2026 23:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1678,32 +1678,167 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 9.
 See the caption package documentation for explanation.
 
-[19 <./2_principi/1_rlc/fig/L_rez.pdf> <./2_principi/1_rlc/fig/R_stick.pdf>])
-[20] (./2_principi/2_ef/1_hol.tex) (./2_principi/2_ef/2_zebek.tex)
-(./2_principi/2_ef/3_dopler.tex) (./2_principi/2_ef/4_bimetal.tex)
-(./2_principi/2_ef/5_prenos.tex) (./2_principi/2_ef/5.5_piezo.tex)
-(./2_principi/2_ef/6_ir_zracenje.tex) (./2_principi/2_ef/7_faradej.tex)
-(./3_if_kola/1_op/1_op_frek.tex) (./3_if_kola/1_op/2_c_to_v.tex)
-(./3_if_kola/1_op/3_forced_bridge.tex)
+[19 <./2_principi/1_rlc/fig/L_rez.pdf> <./2_principi/1_rlc/fig/R_stick.pdf>]
+[20]
+<./2_principi/1_rlc/fig/R_nonlinear.pdf, id=573, 193.26982pt x 133.50188pt>
+File: ./2_principi/1_rlc/fig/R_nonlinear.pdf Graphic file (type pdf)
+<use ./2_principi/1_rlc/fig/R_nonlinear.pdf>
+Package pdftex.def Info: ./2_principi/1_rlc/fig/R_nonlinear.pdf  used on input 
+line 75.
+(pdftex.def)             Requested size: 193.26933pt x 133.50154pt.
+) (./2_principi/2_ef/1_hol.tex
+<./2_principi/2_ef/fig/hall.pdf, id=574, 105.39374pt x 94.10155pt>
+File: ./2_principi/2_ef/fig/hall.pdf Graphic file (type pdf)
+<use ./2_principi/2_ef/fig/hall.pdf>
+Package pdftex.def Info: ./2_principi/2_ef/fig/hall.pdf  used on input line 2.
+(pdftex.def)             Requested size: 105.39346pt x 94.1013pt.
+File: ./2_principi/2_ef/fig/hall.pdf Graphic file (type pdf)
+<use ./2_principi/2_ef/fig/hall.pdf>
+Package pdftex.def Info: ./2_principi/2_ef/fig/hall.pdf  used on input line 9.
+(pdftex.def)             Requested size: 105.39346pt x 94.1013pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 9.
+See the caption package documentation for explanation.
+
+[21 <./2_principi/1_rlc/fig/R_nonlinear.pdf> <./2_principi/2_ef/fig/hall.pdf>]
+<./2_principi/2_ef/fig/hall_2.pdf, id=606, 120.45pt x 105.39375pt>
+File: ./2_principi/2_ef/fig/hall_2.pdf Graphic file (type pdf)
+<use ./2_principi/2_ef/fig/hall_2.pdf>
+Package pdftex.def Info: ./2_principi/2_ef/fig/hall_2.pdf  used on input line 2
+7.
+(pdftex.def)             Requested size: 120.44969pt x 105.39348pt.
+) (./2_principi/2_ef/2_zebek.tex) (./2_principi/2_ef/3_dopler.tex)
+(./2_principi/2_ef/4_bimetal.tex) (./2_principi/2_ef/5_prenos.tex) [22 <./2_pri
+ncipi/2_ef/fig/hall_2.pdf>] (./2_principi/2_ef/5.5_piezo.tex)
+(./2_principi/2_ef/6_ir_zracenje.tex) (./2_principi/2_ef/7_faradej.tex
+<./2_principi/2_ef/fig/amper_klesta.pdf, id=621, 113.81102pt x 113.81102pt>
+File: ./2_principi/2_ef/fig/amper_klesta.pdf Graphic file (type pdf)
+<use ./2_principi/2_ef/fig/amper_klesta.pdf>
+Package pdftex.def Info: ./2_principi/2_ef/fig/amper_klesta.pdf  used on input 
+line 2.
+(pdftex.def)             Requested size: 113.81073pt x 113.81073pt.
+File: ./2_principi/2_ef/fig/amper_klesta.pdf Graphic file (type pdf)
+<use ./2_principi/2_ef/fig/amper_klesta.pdf>
+Package pdftex.def Info: ./2_principi/2_ef/fig/amper_klesta.pdf  used on input 
+line 10.
+(pdftex.def)             Requested size: 113.81073pt x 113.81073pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 10.
+See the caption package documentation for explanation.
+
+<./2_principi/2_ef/fig/faraday.pdf, id=622, 114.12106pt x 89.73521pt>
+File: ./2_principi/2_ef/fig/faraday.pdf Graphic file (type pdf)
+<use ./2_principi/2_ef/fig/faraday.pdf>
+Package pdftex.def Info: ./2_principi/2_ef/fig/faraday.pdf  used on input line 
+16.
+(pdftex.def)             Requested size: 114.12077pt x 89.73497pt.
+
+Overfull \hbox (2.33pt too wide) in paragraph at lines 14--28
+$[]$ $[]$
+ []
+
+<./2_principi/2_ef/fig/polarizacija.pdf, id=623, 58.02278pt x 57.90894pt>
+File: ./2_principi/2_ef/fig/polarizacija.pdf Graphic file (type pdf)
+<use ./2_principi/2_ef/fig/polarizacija.pdf>
+Package pdftex.def Info: ./2_principi/2_ef/fig/polarizacija.pdf  used on input 
+line 47.
+(pdftex.def)             Requested size: 58.02263pt x 57.90878pt.
+
+Overfull \hbox (2.33pt too wide) in paragraph at lines 38--49
+[] []
+ []
+
+[23 <./2_principi/2_ef/fig/amper_klesta.pdf> <./2_principi/2_ef/fig/faraday.pdf
+
+
+pdfTeX warning: pdflatex (file ./2_principi/2_ef/fig/faraday.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>]) (./3_if_kola/1_op/1_op_frek.tex
+<./3_if_kola/1_op/fig/noninv_amp.pdf, id=638, 126.47249pt x 124.21407pt>
+File: ./3_if_kola/1_op/fig/noninv_amp.pdf Graphic file (type pdf)
+<use ./3_if_kola/1_op/fig/noninv_amp.pdf>
+Package pdftex.def Info: ./3_if_kola/1_op/fig/noninv_amp.pdf  used on input lin
+e 2.
+(pdftex.def)             Requested size: 126.47217pt x 124.21375pt.
+File: ./3_if_kola/1_op/fig/noninv_amp.pdf Graphic file (type pdf)
+<use ./3_if_kola/1_op/fig/noninv_amp.pdf>
+Package pdftex.def Info: ./3_if_kola/1_op/fig/noninv_amp.pdf  used on input lin
+e 8.
+(pdftex.def)             Requested size: 126.47217pt x 124.21375pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 8.
+See the caption package documentation for explanation.
+
+) (./3_if_kola/1_op/1.5_cload.tex
+<./3_if_kola/1_op/fig/Cload.pdf, id=639, 145.2928pt x 82.80939pt>
+File: ./3_if_kola/1_op/fig/Cload.pdf Graphic file (type pdf)
+<use ./3_if_kola/1_op/fig/Cload.pdf>
+Package pdftex.def Info: ./3_if_kola/1_op/fig/Cload.pdf  used on input line 2.
+(pdftex.def)             Requested size: 145.29243pt x 82.80917pt.
+File: ./3_if_kola/1_op/fig/Cload.pdf Graphic file (type pdf)
+<use ./3_if_kola/1_op/fig/Cload.pdf>
+Package pdftex.def Info: ./3_if_kola/1_op/fig/Cload.pdf  used on input line 8.
+(pdftex.def)             Requested size: 145.29243pt x 82.80917pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 8.
+See the caption package documentation for explanation.
+
+[24 <./2_principi/2_ef/fig/polarizacija.pdf> <./3_if_kola/1_op/fig/noninv_amp.p
+df
+
+pdfTeX warning: pdflatex (file ./3_if_kola/1_op/fig/noninv_amp.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+> <./3_if_kola/1_op/fig/Cload.pdf
+
+pdfTeX warning: pdflatex (file ./3_if_kola/1_op/fig/Cload.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>]
+<./3_if_kola/1_op/fig/Cload_grafik.pdf, id=774, 173.14688pt x 116.68594pt>
+File: ./3_if_kola/1_op/fig/Cload_grafik.pdf Graphic file (type pdf)
+<use ./3_if_kola/1_op/fig/Cload_grafik.pdf>
+Package pdftex.def Info: ./3_if_kola/1_op/fig/Cload_grafik.pdf  used on input l
+ine 30.
+(pdftex.def)             Requested size: 173.14645pt x 116.68564pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 31.
+See the caption package documentation for explanation.
+
+)
+Overfull \hbox (2.33pt too wide) in paragraph at lines 26--262
+[] []
+ []
+
+(./3_if_kola/1_op/2_c_to_v.tex) (./3_if_kola/1_op/3_forced_bridge.tex)
 (./3_if_kola/1_op/4_strujni_izvor_nps_digi.tex)
-(./3_if_kola/1_op/5_strujni_izvor_LM317.tex) (./3_if_kola/2_ad_da/1_dither.tex)
-[21] (./3_if_kola/2_ad_da/2_oversample.tex) (./4_senzori/2_din_meh/1_acc.tex)
+(./3_if_kola/1_op/5_strujni_izvor_LM317.tex) [25 <./3_if_kola/1_op/fig/Cload_gr
+afik.pdf>] (./3_if_kola/2_ad_da/1_dither.tex)
+(./3_if_kola/2_ad_da/2_oversample.tex) (./4_senzori/2_din_meh/1_acc.tex)
 (./4_senzori/3_pritisak/0_hg.tex) (./4_senzori/3_pritisak/1_lc.tex)
 (./4_senzori/3_pritisak/2_kapac.tex) (./4_senzori/4_protok/0_hot_wire.tex)
 (./4_senzori/4_protok/1_pitot.tex) (./4_senzori/4_protok/2_venturi.tex)
-(./4_senzori/4_protok/3_constrict.tex)) [22] (./main.aux)
+(./4_senzori/4_protok/3_constrict.tex)) [26] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DC0A2B611E9E623637B1AD5DD39AF289;4296.
+(rerunfilecheck)             Checksum: F25A6D801EA30DC2DCAA591502AAE496;4280.
  ) 
 Here is how much of TeX's memory you used:
- 30300 strings out of 474222
- 553590 string characters out of 5748733
+ 30409 strings out of 474222
+ 557261 string characters out of 5748733
  1950975 words of memory out of 5000000
- 51706 multiletter control sequences out of 15000+600000
+ 51794 multiletter control sequences out of 15000+600000
  609988 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,15n,90p,438b,789s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1732,10 +1867,10 @@ mf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/symbol/usyr.pfb>
-Output written on main.pdf (22 pages, 762112 bytes).
+Output written on main.pdf (26 pages, 842296 bytes).
 PDF statistics:
- 747 PDF objects out of 1000 (max. 8388607)
- 602 compressed objects within 7 object streams
- 154 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 954 PDF objects out of 1000 (max. 8388607)
+ 751 compressed objects within 8 object streams
+ 172 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 
